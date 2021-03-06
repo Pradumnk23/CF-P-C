@@ -9,3 +9,4 @@ int main() {
     cout<<ans;
     return 0;
 }
+/* For finding GCD(a!, b!), let assume p=min(a,b) then gcd(a!,b!) = p!... */
