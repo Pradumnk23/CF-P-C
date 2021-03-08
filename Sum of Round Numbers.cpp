@@ -30,3 +30,4 @@ int main()
     }
     return 0;
 }
+// IMP Have a look again..for basic understanding about these type of qstn  -->  best qstn 
