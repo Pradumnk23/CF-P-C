@@ -26,3 +26,27 @@ int main()
     cout<<cnt;
 	return 0;
 }
+/*
+#include<bits/stdc++.h>
+using namespace std;
+int denominations[] = {100,20,10,5,1};       //denominations array in dec. order
+int giveMinBills(int value){
+  int counts = 0;
+  for(int i=0;i<5;){
+      if(value >= denominations[i]){       //taking higher values as much as possible.
+         counts++;
+         value-=denominations[i];
+      }
+      else{
+      i++;                                            //not able to get higher value,move to lower value
+      }
+  }
+  return counts;
+}
+int main(){
+    int value;
+    cin >> value;
+    cout << giveMinBills(value);
+    
+}
+*/
