@@ -27,3 +27,4 @@ int main()
  
 	return 0;
 }
+// only check q==1 :-)
