@@ -18,21 +18,16 @@ int main()
     }
     sort(a,a+n);
     double avg=double(s)/double(n);
-    if(avg>=4.5)
-        cout<<"0"<<endl;
-    else
+    for(lli i=0; i<n; i++)
     {
-        for(lli i=0; i<n; i++)
+        if(avg>=4.5)
+            break;
+        else
         {
-            if(double(avg)>=double(4.5))
-                break;
-            else
-            {
-                s+=(5-a[i]);
-                a[i]=5;
-                avg=s/n;
-                cnt++;
-            }
+            s+=(5-a[i]);
+            a[i]=5;
+            avg=double(s)/double(n);
+            cnt++;
         }
     }
     cout<<cnt<<endl;
