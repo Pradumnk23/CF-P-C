@@ -15,7 +15,7 @@ int main()
         string s;
         cin>>s;
         lli n=s.length();
-        lli i=0;
+        lli i=0; // Imp step
         for(; i<n-1; i++)
         {
             if(s[i]=='1' && s[i+1]=='1')
