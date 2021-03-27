@@ -24,6 +24,8 @@ int main()
         s+=(p-m);
         m=0;
     }
+    if(p<m)
+        m-=p;
     if(b>(m+k))
         s+=b-(m+k);
     cout<<s<<endl;
