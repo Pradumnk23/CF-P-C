@@ -13,14 +13,14 @@ int main()
     r[0]=b;
     while(b>a)
     {
-        if(b%2==1)  //(b&1)
+        if(b%2==1)  //(b&1) is same
         {
-            if(b%10==1)
+            if(b%10==1) // this means unit digit is 1 so that we can sub -1 and then divide by 10
                 b=(b-1)/10;
             else{cout<<"NO"<<endl;return 0;}
         }
         else
-            b=b/2;   // b>>=1;
+            b=b/2;   // b>>=1; is same
         r[c]=b;
         c++;
     }
