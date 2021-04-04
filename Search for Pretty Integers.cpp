@@ -30,6 +30,6 @@ int main()
             return 0;
         }
     }
-    cout<<min(x,y)<<max(x,y)<<endl;
+    cout<<min(x,y)<<max(x,y)<<endl; // Imp
 	return 0;
 }
