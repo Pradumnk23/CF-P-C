@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-    lli n,k,ans,nob,m,max=INT_MAX;
+    lli n,k,ans,nob,m,max=1000000000000000000;//max=INT_MAX;
     cin>>n>>k;
     for(lli i=0; i<k; i++)
     {
