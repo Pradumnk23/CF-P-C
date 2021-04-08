@@ -17,7 +17,7 @@ main()
         s=0;
         for(lli i=0; i<n; i++)
         {
-            s=max(s+(b[i]-a[i]+1)/2,b[i]);
+            s=max(s+(b[i]-a[i]+1)/2,b[i]); //IMP max of departure time and after arrival and waiting time
             s+=a[i+1]-b[i]+p[i+1];
         }
         cout<<s<<endl;
