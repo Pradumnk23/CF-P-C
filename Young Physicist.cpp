@@ -44,7 +44,7 @@ int main()
         yn+=y[i];
         zn+=z[i];
     }
-    if(xn==0 && yn==0 && zn==0)
+    if(xn==0 && yn==0 && zn==0) // sum of x,y,x should be 0 to be in eqm
         yes;
     else
         no;
