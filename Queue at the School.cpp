@@ -45,7 +45,7 @@ int main()
             if(s[i-1]=='B' && s[i]=='G')
             {
                 swap(s[i],s[i-1]);
-                i++;
+                i++; // for making sure that swapped B will not be consider again
             }
         }
     }
